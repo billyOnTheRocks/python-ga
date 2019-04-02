@@ -1,12 +1,17 @@
-# test
-print('hello world') # this is a comment
+grocery_item = []
+item_price = []
+total = 0
 
-"""
-test 2
-"""
+while True:
+    print("========== Welcome to cvs ==========")
+    print("Please scan the item and place it in your bag")
 
-print("Test2")
+    item = str(input("Please enter the item"))
+    price = float(input("Please enter the price"))
+    grocery_item.append(item)
+    item_price.append(price)
 
-print("identify home adress")
-print("identify current location in relation to destination")
-print("check for state of \t test")
+
+
+    print(grocery_item)
+    print(item_price)
